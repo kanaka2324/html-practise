@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 10px solid lightgoldenrodyellow;
+    height: 100vh;
+    width: 100vw;
+    background-color:grey;
+
+}
+.navbar{
+    border: 2px solid black;
+    padding: 30px;
+    height: 15%;
+    display: flex;
+    justify-content:flex-start;
+    gap: 50px;
+    align-items: center;
+    border-radius: 5px;
+
+    
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    
+}
+

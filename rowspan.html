@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid rgb(175, 19, 19);
+}
+td{
+  background-color: aqua;
+}
+tr{
+  background-color: blanchedalmond;
+}
+</style>
+</head>
+<body>
+
+<h1>The td rowspan attribute</h1>
+
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+    <th>Savings for holiday!</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+    <td rowspan="3">$50</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+    <tr>
+      <td>march</td>
+      <td>$70</td>
+    </tr>
+  </tr>
+</table>
+
+</body>
+</html>
