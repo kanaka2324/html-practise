@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow Example</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            box-shadow:  10px 10px 15px rgba(0,0,0,10);
+            
+            margin: 50px;
+        }
+        .box2{
+            width: 200px;
+            height: 100px;
+        
+            box-shadow:  inset 10px 10px 20px rgba(0,0,0,10);
+            text-align: center;
+            line-height: 100px;
+            margin: 50px;
+
+        }
+        .box3{
+            width: 200px;
+            height: 100px;
+        
+            box-shadow:  5px 5px 10px red,-5px -5px 10px blue;
+            text-align: center;
+            line-height: 100px;
+            margin: 50px;
+
+ 
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Shadow Box</div>
+    <div class="box2">shadow box</div>
+    <div class="box3">shadow box</div>
+</body>
+</html>
