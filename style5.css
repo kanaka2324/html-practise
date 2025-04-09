@@ -1,0 +1,59 @@
+.container{
+    border: 2px solid black;
+    height: 100vh; 
+    /* vh viewport height */
+    /* vw viewport width */
+}
+.group{
+    border: 2px solid orange;
+    height: 25vh;
+}
+.item{
+    display: inline-block;
+}
+.item1{
+    border: 2px dashed purple;
+    width: 50%;
+    height: 100%;
+}
+.item2{
+    border: 2px dashed green;
+    width: 49%;
+    height: 100%;
+}
+.item3{
+    border: 2px dashed green;
+    width: 32%;
+    height: 100%;
+    
+
+}
+.item4{
+    border: 2px dashed green;
+    width: 32%;
+    height: 100%;
+
+}
+.item5{
+    border: 2px dashed green;
+    width: 33%;
+    height: 100%;
+
+}
+.item6{
+    border: 2px dashed green;
+    width: 50%;
+    height: 100%;
+
+}
+.item7{
+    border: 2px dashed green;
+    width: 49%;
+    height: 100%;
+}
+.item8{
+    border: 2px dashed green;
+    width: 100%;
+    height: 100%;
+
+}
