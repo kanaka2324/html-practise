@@ -1,0 +1,66 @@
+.container{
+    border: 2px solid black;
+    height: 99vh; 
+    /* vh viewport height */
+    /* vw viewport width */
+}
+.group{
+    border: 2px solid green;
+    height: 24vh;
+}
+.item{
+    display: inline-block;
+}
+.item1{
+    border: 2px solid purple;
+    width: 32%;
+    height: 100%;
+    color: a;
+}
+.item2{
+    border: 2px solid purple;
+    width: 32%;
+    height: 100%;
+}
+.item3{
+    border: 2px solid purple;
+    width: 34%;
+    height: 100%;
+    
+
+}
+.item4{
+    border: 2px solid green;
+    width: 70%;
+    height: 100%;
+
+}
+.item5{
+    border: 2px solid green;
+    width: 29%;
+    height: 100%;
+
+}
+.item6{
+    border: 2px solid palevioletred;
+    width: 29%;
+    height: 100%;
+
+}
+.item7{
+    border: 2px solid palevioletred;
+    width: 70%;
+    height: 100%;
+}
+.item8{
+    border: 2px solid skyblue;
+    width: 50%;
+    height: 95%;
+
+}
+.item9{
+    border: 2px solid skyblue;
+    width: 49%;
+    height: 95%;
+
+}
